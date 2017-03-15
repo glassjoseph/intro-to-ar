@@ -4,8 +4,10 @@ class CreateHorses < ActiveRecord::Migration
       t.text      :name
       t.integer   :age
       t.integer   :total_winnings
-
+      t.integer   :jockey_id
+      
       t.timestamps null: false
+
     end
   end
 end
